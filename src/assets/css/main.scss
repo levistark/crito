@@ -103,7 +103,6 @@ header {
         }
         .nav-container {    
             flex: 1;
-            animation: upDown 0.3s ease-in ;
             
             @media (max-width: 992px) {
                 .navbar-icon {
@@ -1794,6 +1793,9 @@ footer {
                     transform: rotate(-45deg);                    
                     margin-left: 10px;
                 }
+            
+            }
+            .enabled {
                 &:hover {
                     background-color: #191919;
                     color: var(--beige);
