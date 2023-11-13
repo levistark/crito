@@ -1,10 +1,10 @@
 import React from 'react'
-import projectImage1 from '../assets/images/Workplace/Compressed/newspaper.jpg'
-import projectImage2 from '../assets/images/Workplace/Compressed/tablet.jpg'
-import projectImage3 from '../assets/images/Workplace/Compressed/notes.jpg'
-import projectImage4 from '../assets/images/Workplace/Compressed/computer.jpg'
+import projectImage1 from '../../assets/images/Workplace/Compressed/newspaper.jpg'
+import projectImage2 from '../../assets/images/Workplace/Compressed/tablet.jpg'
+import projectImage3 from '../../assets/images/Workplace/Compressed/notes.jpg'
+import projectImage4 from '../../assets/images/Workplace/Compressed/computer.jpg'
 
-const Projects = () => {
+const HomeProjects = () => {
   return (
     <>
         <section className="projects">
@@ -72,4 +72,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default HomeProjects

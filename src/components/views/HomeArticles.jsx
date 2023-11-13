@@ -1,9 +1,9 @@
 import React from 'react'
-import articleImage1 from '../assets/images/Workplace/Compressed/News/1st.jpg'
-import articleImage2 from '../assets/images/Workplace/Compressed/News/2nd.jpg'
-import articleImage3 from '../assets/images/Workplace/Compressed/News/3rd.jpg'
+import articleImage1 from '../../assets/images/Workplace/Compressed/News/1st.jpg'
+import articleImage2 from '../../assets/images/Workplace/Compressed/News/2nd.jpg'
+import articleImage3 from '../../assets/images/Workplace/Compressed/News/3rd.jpg'
 
-const Articles = () => {
+const HomeArticles = () => {
   return (
     <>
         <section className="news">
@@ -70,4 +70,4 @@ const Articles = () => {
   )
 }
 
-export default Articles
+export default HomeArticles

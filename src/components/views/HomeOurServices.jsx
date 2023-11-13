@@ -1,6 +1,6 @@
 import React from 'react'
 
-const OurServices = () => {
+const HomeOurServices = () => {
   return (
     <>
         <section className="our-services">
@@ -46,4 +46,4 @@ const OurServices = () => {
   )
 }
 
-export default OurServices
+export default HomeOurServices

@@ -1,7 +1,7 @@
 import React from 'react'
-import '../assets/css/main.scss'
-import critoLogo from '../assets/images/Logo/Logo.svg'
-import { NavLink } from 'react-router-dom'
+import '../../assets/css/main.scss'
+import critoLogo from '../../assets/images/Logo/Logo.svg'
+import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -9,9 +9,9 @@ const Header = () => {
       <header>
         <div className="container">
             <div className="logo-container">
-                <a href="index.html">
+                <Link to="/">
                   <img src={critoLogo} alt="Crito Logotype" className="logotype"/>
-                </a>
+                </Link>
             </div>
             <div className="nav-container">
                 <div className="nav-contact-container">
@@ -35,7 +35,7 @@ const Header = () => {
                     <div className="header-nav">
                         <NavLink to="/">Home</NavLink>
                         <NavLink to="/">Services</NavLink>
-                        <NavLink to="/news">News</NavLink>
+                        <NavLink to="/articles">News</NavLink>
                         <NavLink to="/contact">Contact</NavLink>
                     </div>
                     <button className="btn-login">Login<i className="fa-solid fa-arrow-right"></i></button>

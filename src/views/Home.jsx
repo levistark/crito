@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import Showcase from '../components/Showcase'
-import HomeMain from '../components/HomeMain'
+import Header from '../components/general/Header'
+import Footer from '../components//general/Footer'
+import Showcase from '../components/general/Showcase'
+import HomeMain from '../components/views/HomeMain'
 
 const Home = () => {
   return (

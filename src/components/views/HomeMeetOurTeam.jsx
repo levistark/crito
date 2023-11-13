@@ -1,10 +1,10 @@
 import React from 'react'
-import teamImage1 from '../assets/images/Workplace/Compressed/Team/1st.jpg'
-import teamImage2 from '../assets/images/Workplace/Compressed/Team/2nd.jpg'
-import teamImage3 from '../assets/images/Workplace/Compressed/Team/3rd.jpg'
-import teamImage4 from '../assets/images/Workplace/Compressed/Team/4th.jpg'
+import teamImage1 from '../../assets/images/Workplace/Compressed/Team/1st.jpg'
+import teamImage2 from '../../assets/images/Workplace/Compressed/Team/2nd.jpg'
+import teamImage3 from '../../assets/images/Workplace/Compressed/Team/3rd.jpg'
+import teamImage4 from '../../assets/images/Workplace/Compressed/Team/4th.jpg'
 
-const MeetOurTeam = () => {
+const HomeMeetOurTeam = () => {
   return (
     <>
         <section className="our-team">
@@ -59,4 +59,4 @@ const MeetOurTeam = () => {
   )
 }
 
-export default MeetOurTeam
+export default HomeMeetOurTeam

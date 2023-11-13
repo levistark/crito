@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Header from '../components//general/Header'
+import Footer from '../components/general/Footer'
 import imgVectorThick from '../assets/images/Showcase/Vector.svg'
 import imgVectorThin from '../assets/images/Showcase/Vector-2.svg'
-import GoogleMaps from '../components/GoogleMaps'
+import GoogleMaps from '../components/general/GoogleMaps'
 import { Link } from 'react-router-dom'
 
 const Contact = () => {

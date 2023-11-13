@@ -1,7 +1,7 @@
 import React from 'react'
-import clientImage1 from '../assets/images/Workplace/Compressed/Clients/1st.jpg'
-import clientImage2 from '../assets/images/Workplace/Compressed/Clients/2nd.jpg'
-import clientImage3 from '../assets/images/Workplace/Compressed/Clients/3rd.jpg'
+import clientImage1 from '../../assets/images/Workplace/Compressed/Clients/1st.jpg'
+import clientImage2 from '../../assets/images/Workplace/Compressed/Clients/2nd.jpg'
+import clientImage3 from '../../assets/images/Workplace/Compressed/Clients/3rd.jpg'
 
 const Articles = () => {
   return (

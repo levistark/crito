@@ -1,8 +1,8 @@
 import React from 'react'
-import aboutImage from '../assets/images/Workplace/daria-pimkina-tYaccl19A3Q-unsplash.jpg'
-import aboutGraphic from '../assets/images/Graphics/EWlement.png'
+import aboutImage from '../../assets/images/Workplace/daria-pimkina-tYaccl19A3Q-unsplash.jpg'
+import aboutGraphic from '../../assets/images/Graphics/EWlement.png'
 
-const About = () => {
+const HomeAbout = () => {
   return (
     <>
         <section className="about">
@@ -33,4 +33,4 @@ const About = () => {
   )
 }
 
-export default About
+export default HomeAbout

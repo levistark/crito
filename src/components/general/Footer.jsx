@@ -1,14 +1,14 @@
 import React from 'react'
-import footerSvg from '../assets/images/Showcase/Vector.svg'
-import footerSvg2 from "../assets/images/Showcase/Vector-2.svg"
-import footerLogo from '../assets/images/Logo/Logo-white.svg'
+import imgVectorThick from '../../assets/images/Showcase/Vector.svg'
+import imgVectorThin from '../../assets/images/Showcase/Vector-2.svg'
+import footerLogo from '../../assets/images/Logo/Logo-white.svg'
 
 const Footer = () => {
   return (
     <>
         <footer>
-            <img src={footerSvg} alt="flow vector image" className="img-vector-thick"/>
-            <img src={footerSvg2} alt="flow vector image" className="img-vector-thin"/>
+            <img src={imgVectorThick} alt="flow vector image" className="img-vector-thick"/>
+            <img src={imgVectorThin} alt="flow vector image" className="img-vector-thin"/>
 
             <div className="container footer-container">
                 <div className="nav-logo">

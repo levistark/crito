@@ -1,7 +1,7 @@
 import React from 'react'
-import whyChooseUsImage from '../assets/images/Workplace/Compressed/amy-hirschi-K0c8ko3e6AA-unsplash.jpg'
+import whyChooseUsImage from '../../assets/images/Workplace/Compressed/amy-hirschi-K0c8ko3e6AA-unsplash.jpg'
 
-const WhyChooseUs = () => {
+const HomeWhyChooseUs = () => {
   return (
     <>
         <section className="why-choose-us">
@@ -84,4 +84,4 @@ const WhyChooseUs = () => {
   )
 }
 
-export default WhyChooseUs
+export default HomeWhyChooseUs

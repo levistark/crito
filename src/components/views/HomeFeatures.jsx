@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Features = () => {
+const HomeFeatures = () => {
   return (
     <>
         <section className="features-wrapper">
@@ -44,4 +44,4 @@ const Features = () => {
   )
 }
 
-export default Features
+export default HomeFeatures

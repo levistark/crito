@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import News from './views/News'
+import Articles from './views/Articles'
 import './assets/css/main.scss'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './views/Home'
@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/contact' element={<Contact/>}/>
-        <Route path='/news' element={<News/>}/>
+        <Route path='/articles' element={<Articles/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
