@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import contactGraphic from '../assets/images/Showcase/Vector.svg'
-import contactGraphic2 from '../assets/images/Showcase/Vector-2.svg'
+import imgVectorThick from '../assets/images/Showcase/Vector.svg'
+import imgVectorThin from '../assets/images/Showcase/Vector-2.svg'
 import GoogleMaps from '../components/GoogleMaps'
 import { Link } from 'react-router-dom'
 
@@ -103,15 +103,15 @@ const Contact = () => {
     <>
         <Header/>
         
-        <section className="ctc-showcase">
-            <div className="ctc-showcase-container container">
+        <section className="simple-showcase">
+            <div className="simple-showcase-container container">
                 <Link to="/">Home</Link>
                 <Link to="/contact"><strong>Contact</strong></Link>
                 <h1><strong>Let's Connect</strong></h1>
             </div>
 
-            <img src={contactGraphic} alt="flow vector image" className="img-vector-thick"/>
-            <img src={contactGraphic2} alt="flow vector image" className="img-vector-thin"/>
+            <img src={imgVectorThick} alt="flow vector image" className="img-vector-thick"/>
+            <img src={imgVectorThin} alt="flow vector image" className="img-vector-thin"/>
         </section>  
 
         <main className="main">

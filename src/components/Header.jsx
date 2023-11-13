@@ -35,7 +35,7 @@ const Header = () => {
                     <div className="header-nav">
                         <NavLink to="/">Home</NavLink>
                         <NavLink to="/">Services</NavLink>
-                        <NavLink to="/">News</NavLink>
+                        <NavLink to="/news">News</NavLink>
                         <NavLink to="/contact">Contact</NavLink>
                     </div>
                     <button className="btn-login">Login<i className="fa-solid fa-arrow-right"></i></button>

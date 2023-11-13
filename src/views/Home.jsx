@@ -4,7 +4,6 @@ import Footer from '../components/Footer'
 import Showcase from '../components/Showcase'
 import HomeMain from '../components/HomeMain'
 
-
 const Home = () => {
   return (
     <div>
