@@ -1,40 +1,30 @@
 import React from 'react'
+import ServiceCard from '../general/ServiceCard'
 
-const HomeOurServices = () => {
+const HomeOurServices = ({h2, h4}) => {
   return (
     <>
         <section className="our-services">
             <div className="our-services-container container">
-                <h4>Our Services</h4>
-                <h2>We Provide The Best Service For Consulting</h2>
+                <h4>{h4}</h4>
+                <h2>{h2}</h2>
                 <div className="service-grid">
-                    <div>
-                        <span>------</span>                        
-                        <h5>Business Advice</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
-                        <button><i className="fa-solid fa-arrow-right"></i></button>
-                    </div>
-                    <div>
-                        <span>------</span>                        
-                        <h5>Startup Business</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
-                        <button><i className="fa-solid fa-arrow-right"></i></button>
-
-                    </div>
-                    <div>
-                        <span>------</span>                        
-                        <h5>Financial Advice</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
-                        <button><i className="fa-solid fa-arrow-right"></i></button>
-
-                    </div>
-                    <div>
-                        <span>------</span>                        
-                        <h5>Risk Management</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
-                        <button><i className="fa-solid fa-arrow-right"></i></button>
-
-                    </div>
+                    <ServiceCard 
+                        title='Business Advice'
+                        text='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.'
+                    />
+                    <ServiceCard 
+                        title='Startup Business'
+                        text='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.'
+                    />
+                    <ServiceCard 
+                        title='Financial Advice'
+                        text='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.'
+                    />
+                    <ServiceCard 
+                        title='Risk Management'
+                        text='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.'
+                    />
                 </div>
             </div>
             <button className="btn-browse">Browse Services<i className="fa-solid fa-arrow-right"></i></button>

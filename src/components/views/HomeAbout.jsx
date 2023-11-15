@@ -2,7 +2,7 @@ import React from 'react'
 import aboutImage from '../../assets/images/Workplace/daria-pimkina-tYaccl19A3Q-unsplash.jpg'
 import aboutGraphic from '../../assets/images/Graphics/EWlement.png'
 
-const HomeAbout = () => {
+const HomeAbout = ({h4, h2}) => {
   return (
     <>
         <section className="about">
@@ -16,8 +16,8 @@ const HomeAbout = () => {
                     </div>
                 </div>
                 <div className="about-text">
-                    <h4>About Company</h4>
-                    <h2>We Are Business Consulting & Credit Repair Expers</h2>
+                    <h4>{h4}</h4>
+                    <h2>{h2}</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis quas assumenda esse obcaecati? Ex esse error voluptates iure vel totam eos. </p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officiis quas assumenda esse obcaecati? Ex esse error voluptates iure vel totam eos. </p>
                     <button className="btn-learn">Learn More<i className="fa-solid fa-arrow-right"></i></button>

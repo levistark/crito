@@ -4,7 +4,7 @@ import Signup from '../components/general/Signup'
 import SimpleShowcase from '../components/general/SimpleShowcase'
 import ArticleList from '../components/general/ArticleList'
 
-const Articles = (props) => {
+const Articles = () => {
 
   return (
     <>
@@ -17,7 +17,7 @@ const Articles = (props) => {
             <h4>News & Articles</h4>
             <h2>Our News & Articles</h2>
 
-            <ArticleList/>
+            <ArticleList limit={9}/>
 
           </section>
         </main>

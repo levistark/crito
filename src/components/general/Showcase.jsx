@@ -2,6 +2,7 @@ import React from 'react'
 import showcaseImageMan from '../../assets/images/Showcase/bg-image.png'
 import imgVectorThick from '../../assets/images/Showcase/Vector.svg'
 import imgVectorThin from '../../assets/images/Showcase/Vector-2.svg'
+import { Link } from 'react-router-dom'
 
 const Showcase = () => {
   return (
@@ -11,8 +12,8 @@ const Showcase = () => {
                 <div className="content">
                     <h1><strong>We provide The <br/>Best Business <br/>Solutions</strong></h1>
                     <p>Establish your vision and value proposition and turn them into testable prototypes.</p>
-                    <button className="btn-consult">Get Consulting<i className="fa-solid fa-arrow-right"></i></button>
-                    <button className="btn-learn">Learn More<i className="fa-solid fa-arrow-right"></i></button>
+                    <Link to='/contact' className="btn-consult">Get Consulting<i className="fa-solid fa-arrow-right"></i></Link>
+                    <Link to='/contact' className="btn-learn">Learn More<i className="fa-solid fa-arrow-right"></i></Link>
                 </div>
                 <img src={showcaseImageMan} alt="showcase image of a man with a tablet" className="img-bg"/>
             </div>

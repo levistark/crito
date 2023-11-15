@@ -3,10 +3,12 @@ import Spinner from './Spinner'
 import { useArticles } from '../../contexts/ArticleProvider'
 import React, { useEffect, useState } from 'react'
 
-const ArticleList = () => {
+const ArticleList = ({limit}) => {
 
     const [imageLoaded, setImageloaded] = useState(false)
     const { articles } = useArticles()
+
+    const limitedArticles = articles.slice(0, limit)
   
     const handleImageLoaded = () => {
       setImageloaded(true)
@@ -16,7 +18,7 @@ const ArticleList = () => {
     <>
         <div className="news-grid">
             {
-            articles.map(article => {
+            limitedArticles.map(article => {
                 const date = new Date(article.published)
                 const publishDate = date.toLocaleDateString('sv-SE')
                 

@@ -323,6 +323,8 @@ header {
                 font-weight: 500;
                 transition: 0.2s;
                 margin-right: 10px;
+                text-decoration: none;
+                color: var(--black);
 
                 i {
                     transform: rotate(-45deg);                    
@@ -347,6 +349,8 @@ header {
                 padding: 15px 30px;
                 font-weight: 500;
                 transition: 0.2s;
+                text-decoration: none;
+                color: var(--black);
 
                 i {
                     transform: rotate(-45deg);                     
@@ -1340,6 +1344,7 @@ header {
                     border-radius: 40px;
                     padding: 15px 35px;
                     transition: 0.2s;
+                    text-decoration: none;
                     flex: end;
         
                     i {

@@ -6,12 +6,12 @@ import HomeMain from '../components/views/HomeMain'
 
 const Home = () => {
   return (
-    <div>
+    <>
         <Header />
         <Showcase />
         <HomeMain/>
         <Footer />
-    </div>
+    </>
   )
 }
 

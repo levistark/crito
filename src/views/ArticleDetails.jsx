@@ -23,6 +23,10 @@ const ArticleDetails = () => {
         setImgLoading(false)
     }
 
+    const limitedArticles = articles.slice(0, 4)
+    const date = new Date(article.published)
+    const publishDate = date.toLocaleDateString('sv-SE')
+
   return (
     <>
         <Header/>
@@ -33,7 +37,7 @@ const ArticleDetails = () => {
                     <h4>Article</h4>
                     <h2>{article.title}</h2>
                     <div className='article-meta'>
-                        <h6>{article.published}</h6>
+                        <h6>{publishDate}</h6>
                         <div className='dot'></div>
                         <h6>{article.category}</h6>
                         <div className='dot'></div>
@@ -70,9 +74,7 @@ const ArticleDetails = () => {
                                 <div className='recent-posts-list'>
 
                                     {
-                                        articles.map(article => {
-                                        const date = new Date(article.published)
-                                        const publishDate = date.toLocaleDateString('sv-SE')
+                                        limitedArticles.map(article => {
                                         
                                         return (
                                             <Link to={`/articles/${article.id}`} key={article.id}>
