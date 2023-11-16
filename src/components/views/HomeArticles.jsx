@@ -1,5 +1,5 @@
 import React from 'react'
-import ArticleList from '../general/ArticleList'
+import ArticleCarousel from '../general/ArticleCarousel'
 import { Link } from 'react-router-dom'
 
 const HomeArticles = ({h2, h4}) => {
@@ -15,15 +15,7 @@ const HomeArticles = ({h2, h4}) => {
                     </div>
                     <Link to={'/articles'} className="btn-browse">Browse Articles<i className="fa-solid fa-arrow-right"></i></Link>
                 </div>
-                <ArticleList limit={3}/>
-
-                <div className="dots">
-                    <span>.</span>
-                    <span>.</span>
-                    <span>.</span>
-                    <span>.</span>
-                    <span>.</span>
-                </div>
+                <ArticleCarousel/>
             </div>
         </section>
 

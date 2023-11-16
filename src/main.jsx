@@ -9,11 +9,13 @@ import ArticleDetails from './views/ArticleDetails'
 import { ArticleProvider } from './contexts/ArticleProvider'
 import AutoScrollToTop from './components/functionality/AutoScrollToTop'
 import NotFound from './views/NotFound'
+import { ScrollToTop } from './components/functionality/ScrollToTop'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
     <AutoScrollToTop />
+    <ScrollToTop/>
       <ArticleProvider>
         <Routes>
           <Route path='*' element={<NotFound/>}/>

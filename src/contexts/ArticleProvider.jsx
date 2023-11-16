@@ -28,7 +28,7 @@ export const ArticleProvider = ({children}) => {
     }
 
     return (
-        <ArticleContext.Provider value={{articles, article, getArticles, getArticle, clearArticle}}>
+        <ArticleContext.Provider value={{articles, article, getArticles, getArticle, clearArticle, }}>
             {children}
         </ArticleContext.Provider>
     )

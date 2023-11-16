@@ -6,6 +6,10 @@ import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import Spinner from '../components/general/Spinner'
 import { useArticles } from '../contexts/ArticleProvider'
+import CategoryCounts from '../components/general/CategoryCounts'
+import ArticleList from '../components/general/ArticleList'
+import ArticleCarousel from '../components/general/ArticleCarousel'
+
 
 const ArticleDetails = () => {
 
@@ -94,13 +98,28 @@ const ArticleDetails = () => {
                                         <span></span>
                                     </div>
                                 </div>
+                                <CategoryCounts articles={articles}/>
                             </div>
                         </div>
                     </div>
                 </article>
                 
             </section>
+            
         </main>
+
+        <section className="more-news-wrapper">
+            <div className="news-container container">
+                <div className="heading-container">
+                    <div className="heading-text">
+                        <h4>News & Articles</h4>
+                        <h2>Get Every Single Article & News</h2>
+                    </div>
+                    <Link to={'/articles'} className="btn-browse">Browse Articles<i className="fa-solid fa-arrow-right"></i></Link>
+                </div>
+                <ArticleCarousel/>
+            </div>
+        </section>
         <Footer/>
     </>
   )

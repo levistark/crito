@@ -22,7 +22,7 @@ const Articles = () => {
           </section>
         </main>
 
-        <Signup/>
+        <Signup h2='Get News Updates By Signup'/>
 
         <Footer/>
     </>

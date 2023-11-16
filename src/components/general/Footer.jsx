@@ -1,7 +1,7 @@
 import React from 'react'
 import imgVectorThick from '../../assets/images/Showcase/Vector.svg'
 import imgVectorThin from '../../assets/images/Showcase/Vector-2.svg'
-import footerLogo from '../../assets/images/Logo/Logo-white.svg'
+import whiteLogo from '../../assets/images/Logo/Logo-white.svg'
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
 
             <div className="container footer-container">
                 <div className="nav-logo">
-                    <a href="index.html"><img src={footerLogo} loading="lazy" alt="Crito Logotype" className="logotype"/><br/><br/></a>
+                    <a href="index.html"><img src={whiteLogo} loading="lazy" alt="Crito Logotype" className="logotype"/><br/><br/></a>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati voluptas voluptates! Voluptates laborum nam ratione minus necessitatibus, iure praesentium.
                 </div>
                 <div className="nav-company">
